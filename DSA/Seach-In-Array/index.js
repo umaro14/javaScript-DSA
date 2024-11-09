@@ -6,7 +6,7 @@
 
 function checking(allStudents, studentname){
     for(i = 0; i < students.length; i++){
-        if(allStudents[i] === studentname){
+        if(allStudents[i] === studentname){ 
             console.log("found: " + studentname + "at index " + i);
         }
     }
