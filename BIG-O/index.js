@@ -18,8 +18,8 @@ const startTime = new Date();
 console.log(sumArray(n));
 const endTime = new Date();
 
-const elapsedTime = endTime -startTime;
-console.log(`finishedin ${elapsedTime} ms.`)
+const elapsedTime = endTime - startTime;
+console.log(`finishedin ${elapsedTime} ms.`);
 
 
 
@@ -39,12 +39,7 @@ const calculateAvarege = (numbers1) => {
     return sum1 / numbers1.length;
 
 }
- 
 console.log(calculateAvarege([1,2,3,4]));
-
-
-
-
 
 //Time complexity example 1
 //if you have nested loops you are doing multiplications
@@ -65,3 +60,21 @@ const foo = (n) => {
     }
 }
 console.log( foo(10))
+
+
+//Time complexity example 2
+//O(3n + 10000) ==> 3n ==> O(n)
+
+const bar = (n) => {
+    for (let i = 0; i < 3; i++) {
+        for(let j = 0; j < n; j++ ){
+            console.log( j);
+        }
+    }
+
+    for(let k = 0; k < 10000;  k++){
+        console.log(k);
+    }
+}
+
+
