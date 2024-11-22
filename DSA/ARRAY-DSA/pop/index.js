@@ -41,6 +41,8 @@ const myArray = new MyArray();
 myArray.push("apple");
 myArray.push("orange");
 myArray.push("banana");
+myArray.push("banana");
+myArray.push("banana");
 
 
 
