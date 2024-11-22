@@ -138,7 +138,6 @@ console.log(capitalise('my name is umaro balde'))
 //is applied to all matches in the string, not just the first match.*/
 function charMap1(word){
     const charMapB = {};
-     
     word = word.toLowerCase().replace(/[\W]/g,'')  // W represent everything that is not a word; and replace it with '' space
     for(let i = 0; i < word.length; i++){
         const char1 = word[i];

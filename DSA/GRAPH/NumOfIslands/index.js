@@ -20,7 +20,7 @@ function numIslands(grid){
   const cols = grid[0].length;
   let numOfIslands = 0;
 
-  //recursive depth first search
+  // depth first search
   function dfs(i, j){
     if(i < 0 || i >= rows || j < 0 || j >= cols || grid[i][j] === "0"){
       return;
