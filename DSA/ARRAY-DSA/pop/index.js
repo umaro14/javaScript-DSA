@@ -43,6 +43,10 @@ myArray.push("orange");
 myArray.push("banana");
 myArray.push("banana");
 myArray.push("banana");
+myArray.push("banana");
+myArray.push("banana");
+myArray.push("banana");
+myArray.push("banana");
 
 
 
